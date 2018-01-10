@@ -77,6 +77,16 @@ Cài đặt OpenVPN mode TUN theo hướng dẫn ở [đây](./pfSense-OpenVPN-T
 +-----------------------+-----------------------------------------------------------------------------------+
 ```
 
+ - Để gỡ allow address pair, dùng lệnh:
+  ```sh
+  neutron port-update 97282f6a-17ff-4e4b-b53f-27756efda9f7 --no-allowed-address-pairs
+  ```
+
+ - Dùng lệnh sau để mở port VPN trên Security group default (udp 1194)
+  ```sh
+  openstack security group rule create --dst-port 1194 --proto udp  default
+  ``` 
+
 ## Thực hiện trên máy ảo Client
   - Add route cho dải mạng 10.8.3.0/24
   ```sh
