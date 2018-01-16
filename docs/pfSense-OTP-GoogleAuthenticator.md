@@ -67,7 +67,7 @@ Tại VPN > OpenVPN > Servers, Thêm `reneg-sec 0`  vào "Custom Options"
 - Tại VPN > OpenVPN > Client Export Utility, Thêm `reneg-sec 0`  vào "Additional configuration options"
 ![img](../images/GoogleAuth/8.jpg)
 
-- Để kiểm tra việc xác thực bằng freeradius, vào Diagnostics > Authentication, nhập user vừa tạo và password. Lưu ý, password = PIN + Google Authenticator code.
+- Để kiểm tra việc xác thực bằng freeradius, vào Diagnostics > Authentication, nhập user vừa tạo và password. Lưu ý, **password = PIN + Google Authenticator code.**
 ![img](../images/GoogleAuth/12.jpg)
 
 - Vào VPN > OpenVPN > Client Export Utility, download gói cài đặt openvpn cho client và cài đặt.
