@@ -102,3 +102,5 @@ Tham khảo:
 
 [2] - https://www.tecmint.com/how-to-install-and-configure-pfsense/2/
 
+[3] - https://vorkbaard.nl/how-to-set-up-openvpn-with-google-authenticator-on-pfsense/
+
