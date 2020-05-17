@@ -105,3 +105,4 @@ docker pull nginx
 ```
 ## Tài liệu tham khảo
 - https://hub.docker.com/r/ekristen/openvpn-client/
+- https://github.com/sameersbn/docker-squid
